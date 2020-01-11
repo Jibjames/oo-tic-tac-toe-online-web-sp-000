@@ -1,4 +1,4 @@
-class TicTacToe 
+class TicTacToe
   @@WIN_COMBINATIONS = [
   [0, 1, 2],
   [3, 4, 5],
@@ -12,7 +12,7 @@ class TicTacToe
 
   def initialize
     @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-    
+
   end
 
   def self.display_board(board)
