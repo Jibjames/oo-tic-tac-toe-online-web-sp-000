@@ -8,7 +8,7 @@ class TicTacToe
   [2, 5, 8],
   [0, 4, 8],
   [6, 4, 2]
-]
+  ]
 
   def initialize
     @board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
@@ -21,6 +21,6 @@ class TicTacToe
   puts " #{@board[3]} | #{@board[4]} | #{@board[5]} "
   puts '-----------'
   puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
-end
+  end
 
 end
